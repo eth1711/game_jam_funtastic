@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://coau4dosrjodj"]
+
+[ext_resource type="Script" path="res://Thing.gd" id="1_g1ueh"]
+
+[node name="Thing" type="Node2D"]
+script = ExtResource("1_g1ueh")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 282.0
+offset_bottom = 214.0
+text = "hi ethan :D"
