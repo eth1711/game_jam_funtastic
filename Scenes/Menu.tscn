@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://c02wmaqgnlmki"]
+
+[ext_resource type="Script" path="res://Scripts/Menu.gd" id="1_gaiqs"]
+[ext_resource type="PackedScene" uid="uid://bmbm84jepgrda" path="res://Scenes/background.tscn" id="3_l4tfx"]
+
+[sub_resource type="FontVariation" id="FontVariation_8qw87"]
+
+[sub_resource type="Theme" id="Theme_t7er7"]
+default_font = SubResource("FontVariation_8qw87")
+default_font_size = 70
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_gaiqs")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 55.0
+offset_top = 783.0
+offset_right = 434.0
+offset_bottom = 912.0
+theme = SubResource("Theme_t7er7")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "Play"
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("3_l4tfx")]
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
