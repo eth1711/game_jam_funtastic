@@ -1,0 +1,123 @@
+[33mcommit aeb371c2b714b922a8ccc356827309c0edfb307c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 1d2316e a339865
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Sun Nov 26 18:39:09 2023 +0800
+
+    Merge branch 'main' of https://github.com/eth1711/game_jam_funtastic
+
+[33mcommit a339865c62f2c75f5a702fefafcf43c0571bbb66[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: aerixstar <yuling.heng@gmail.com>
+Date:   Sun Nov 26 18:38:56 2023 +0800
+
+    rubbish bin
+
+[33mcommit 1d2316ea95cece626da6151e7659743006748c7f[m
+Merge: 34142e2 398ec83
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Sun Nov 26 18:35:55 2023 +0800
+
+    Merge branch 'main' of https://github.com/eth1711/game_jam_funtastic
+
+[33mcommit 34142e2137c6990bafd787ca8653b92a2a21a248[m
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Sun Nov 26 18:32:03 2023 +0800
+
+    adding scenes
+
+[33mcommit 398ec83124c665ff90f0a0fbdd026a0d62c17962[m
+Author: aerixstar <yuling.heng@gmail.com>
+Date:   Sun Nov 26 18:20:46 2023 +0800
+
+    no no button
+
+[33mcommit fc155489d3ff53bab6e43a62b49bc14600dd46d1[m
+Author: aerixstar <yuling.heng@gmail.com>
+Date:   Sun Nov 26 18:12:40 2023 +0800
+
+    close folder
+
+[33mcommit 35f0cc3cc562f7a627dad4d5f048e8179267a10f[m
+Author: aerixstar <yuling.heng@gmail.com>
+Date:   Sun Nov 26 18:04:22 2023 +0800
+
+    trim white space
+
+[33mcommit dc224e66f22566853734cbfc73100c6285617dfe[m
+Author: aerixstar <yuling.heng@gmail.com>
+Date:   Sun Nov 26 17:55:49 2023 +0800
+
+    more new new icon
+
+[33mcommit 78c367a0415c6684514a6b03714461aa6ca40458[m
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Sun Nov 26 15:23:13 2023 +0800
+
+    stuff
+
+[33mcommit fed3be438bd6bdfea8adc4ecf104b6388f218803[m
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Sun Nov 26 15:22:41 2023 +0800
+
+    replaced tile folder with icons folder
+
+[33mcommit 6c2c6ac24e9d490d9cf9216c9e69f2e3a2372d38[m
+Merge: ec22cff 13fc4f3
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Sun Nov 26 15:20:26 2023 +0800
+
+    Merge branch 'main' of https://github.com/eth1711/game_jam_funtastic
+
+[33mcommit 13fc4f359c90f4dd76823ba64a0c1824c483c6dc[m
+Author: aerixstar <yuling.heng@gmail.com>
+Date:   Sun Nov 26 15:20:15 2023 +0800
+
+    more new icon
+
+[33mcommit ec22cff9943cea65ab33ea1c294244ed668ea09b[m
+Merge: 5581ded b956406
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Sun Nov 26 15:17:59 2023 +0800
+
+    Merge branch 'main' of https://github.com/eth1711/game_jam_funtastic
+
+[33mcommit 5581ded9f55aeada80ce22d445c9a0b5af236422[m
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Sun Nov 26 15:16:47 2023 +0800
+
+    game overhaul, new file placement added
+
+[33mcommit b956406fb986706cebea2df62dfb2ca985aec0fb[m
+Author: aerixstar <yuling.heng@gmail.com>
+Date:   Sun Nov 26 14:20:42 2023 +0800
+
+    new windows icon
+
+[33mcommit f2631c745a8037afb22d1900088719432968c3b6[m
+Author: Ethan's Laptop <ethanlimwl@gmail.com>
+Date:   Sun Nov 26 00:05:26 2023 +0800
+
+    Organized everything into folders and worked on the Menu Page. Currently stuck at some menu page dysfunctionality
+
+[33mcommit f36e164e5a06d571bae24289ac85e41664f93cae[m
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Fri Nov 24 20:06:37 2023 +0800
+
+    feat: deleted test files, and working on player and player controller
+
+[33mcommit 4ec28059a3d9c623d5608700ea6b0c418b92904d[m
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Thu Nov 23 18:23:35 2023 +0800
+
+    test 2
+
+[33mcommit db10b2724f025fb4302fc3861646b122de8c4d2d[m
+Author: ghostyghast <antoinethebestgamer@gmail.com>
+Date:   Thu Nov 23 18:16:13 2023 +0800
+
+    Test commmit
+
+[33mcommit f0e26276fff7784a5b3438af6a85ec36062b19a4[m
+Author: Ethan's Laptop <ethanlimwl@gmail.com>
+Date:   Thu Nov 23 18:00:55 2023 +0800
+
+    Starting things off
