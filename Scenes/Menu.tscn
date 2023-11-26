@@ -1,0 +1,65 @@
+[gd_scene load_steps=8 format=3 uid="uid://c02wmaqgnlmki"]
+
+[ext_resource type="Script" path="res://Scripts/Menu.gd" id="1_gaiqs"]
+
+[sub_resource type="FontVariation" id="FontVariation_8qw87"]
+
+[sub_resource type="Theme" id="Theme_t7er7"]
+default_font = SubResource("FontVariation_8qw87")
+default_font_size = 70
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_00n7p"]
+bg_color = Color(0.815686, 0.815686, 0.815686, 1)
+border_width_left = 5
+border_width_top = 3
+border_width_right = 12
+border_width_bottom = 12
+border_color = Color(0.0196078, 0.0196078, 0.0196078, 1)
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_2rwp2"]
+
+[sub_resource type="FontVariation" id="FontVariation_ei1fk"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6sxqn"]
+bg_color = Color(0.815686, 0.815686, 0.815686, 1)
+border_width_left = 6
+border_width_top = 4
+border_width_right = 12
+border_width_bottom = 12
+border_color = Color(0.0235294, 0.0235294, 0.0235294, 1)
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_gaiqs")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 4.0
+offset_top = 8.0
+offset_right = 1155.0
+offset_bottom = 647.0
+color = Color(0.145098, 0.439216, 0.423529, 1)
+
+[node name="Play" type="Button" parent="."]
+offset_left = 393.0
+offset_top = 369.0
+offset_right = 772.0
+offset_bottom = 498.0
+theme = SubResource("Theme_t7er7")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_00n7p")
+text = "START"
+icon = SubResource("CanvasTexture_2rwp2")
+
+[node name="Title" type="Button" parent="Play"]
+offset_left = -270.0
+offset_top = -247.0
+offset_right = 687.0
+offset_bottom = -68.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_ei1fk")
+theme_override_font_sizes/font_size = 70
+theme_override_styles/normal = SubResource("StyleBoxFlat_6sxqn")
+text = "MOST AWESOME GAME
+"
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]

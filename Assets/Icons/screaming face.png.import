@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://doarodvumesbh"
+=======
+uid="uid://clb2kxp1cif40"
+>>>>>>> 9197d91224eeae5ac48e24cd863fd56fd22bbd1b
 path="res://.godot/imported/screaming face.png-277372c5ff3d58d5353e9fa6849814d0.ctex"
 metadata={
 "vram_texture": false

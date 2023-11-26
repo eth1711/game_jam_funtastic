@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dthabisbtiwp7"
+=======
+uid="uid://cgqnakbcqrh0n"
+>>>>>>> 9197d91224eeae5ac48e24cd863fd56fd22bbd1b
 path="res://.godot/imported/evil file.png-820bbf5e285e0fdea2198a83788c0c88.ctex"
 metadata={
 "vram_texture": false

@@ -1,11 +1,9 @@
 extends Node2D
 
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if Input.is_key_pressed(KEY_ESCAPE):
+		get_tree().quit()
+func _on_downloads_pressed():
+	var file_man = $FileManagerLandscape
+	file_man.add_child(load("res://Scenes/Folders/downloads.tscn").instantiate())
+	file_man.show()
