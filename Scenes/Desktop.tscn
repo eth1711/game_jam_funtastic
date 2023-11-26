@@ -1,11 +1,17 @@
-[gd_scene load_steps=8 format=3 uid="uid://dm0fb0sy8g3u4"]
+[gd_scene load_steps=14 format=3 uid="uid://dm0fb0sy8g3u4"]
 
 [ext_resource type="Script" path="res://Scripts/Desktop.gd" id="1_0400b"]
 [ext_resource type="Texture2D" uid="uid://c8l0q08p7i8t6" path="res://Assets/Icons/windows desktop morning.png" id="2_qmuhb"]
-[ext_resource type="PackedScene" uid="uid://b2xahkos6iuho" path="res://Scenes/file_window.tscn" id="3_oa713"]
+[ext_resource type="Texture2D" uid="uid://b4658gsno3fc8" path="res://Assets/Icons/windows desktop night.png" id="3_5q6vy"]
 [ext_resource type="Texture2D" uid="uid://beqoike441u1w" path="res://Assets/Icons/file.png" id="4_egebd"]
 [ext_resource type="Texture2D" uid="uid://dn1cyovrv68c3" path="res://Assets/Icons/close folder.png" id="4_r6ggi"]
 [ext_resource type="Texture2D" uid="uid://ce3cyjm1kassp" path="res://Assets/Icons/bin with rubbish.png" id="5_kr5i7"]
+[ext_resource type="Texture2D" uid="uid://nriodlxtwgfi" path="res://Assets/Icons/download.png" id="6_6deq2"]
+[ext_resource type="Texture2D" uid="uid://ri2vmmd88lnm" path="res://Assets/Icons/file manager landscape.png" id="7_mgwnd"]
+[ext_resource type="Texture2D" uid="uid://b43rr47txd3k6" path="res://Assets/Icons/file manager.png" id="8_gb736"]
+[ext_resource type="Script" path="res://Scripts/FileManagerLandscape.gd" id="9_4oh71"]
+[ext_resource type="Texture2D" uid="uid://cxds5hcenvqup" path="res://Assets/Icons/windows explorer.png" id="9_qshv8"]
+[ext_resource type="Texture2D" uid="uid://bk2jdpo4bpoio" path="res://Assets/Icons/internet explore.png" id="10_sdk0y"]
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_32w10"]
 
@@ -13,9 +19,15 @@
 script = ExtResource("1_0400b")
 
 [node name="WindowsDesktopMorning" type="Sprite2D" parent="."]
-position = Vector2(987, 542)
-scale = Vector2(3.09015, 2.96923)
+position = Vector2(975.076, 542)
+scale = Vector2(3.05289, 2.96923)
 texture = ExtResource("2_qmuhb")
+
+[node name="WindowsDesktopNight" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(993, 538)
+scale = Vector2(3.09687, 2.96667)
+texture = ExtResource("3_5q6vy")
 
 [node name="Documents" type="TextureButton" parent="."]
 offset_left = 112.0
@@ -27,6 +39,7 @@ texture_normal = ExtResource("4_r6ggi")
 texture_hover = ExtResource("4_egebd")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Documents"]
+layout_mode = 0
 offset_left = -22.9095
 offset_top = 34.3643
 offset_right = 68.0905
@@ -47,8 +60,10 @@ offset_right = 456.0
 offset_bottom = 368.0
 scale = Vector2(3.492, 3.492)
 texture_normal = ExtResource("4_r6ggi")
+texture_hover = ExtResource("4_egebd")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Images"]
+layout_mode = 0
 offset_left = -26.9187
 offset_top = 34.3643
 offset_right = 69.0813
@@ -69,9 +84,10 @@ offset_top = 80.0
 offset_right = 448.0
 offset_bottom = 120.0
 scale = Vector2(3.492, 3.492)
-texture_normal = ExtResource("4_r6ggi")
+texture_normal = ExtResource("6_6deq2")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Downloads"]
+layout_mode = 0
 offset_left = -22.9095
 offset_top = 29.7824
 offset_right = 73.0905
@@ -109,9 +125,34 @@ scroll_active = false
 shortcut_keys_enabled = false
 custom_effects = [SubResource("RichTextEffect_32w10")]
 
-[node name="File_manager" parent="." instance=ExtResource("3_oa713")]
+[node name="FileManagerLandscape" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(-16, 0)
-scale = Vector2(3.70281, 2.99224)
+position = Vector2(972, 492)
+scale = Vector2(2.2125, 2.68889)
+texture = ExtResource("7_mgwnd")
+script = ExtResource("9_4oh71")
+
+[node name="Button" type="Button" parent="FileManagerLandscape"]
+offset_left = 259.0
+offset_top = -177.0
+offset_right = 316.0
+offset_bottom = -153.0
+flat = true
+
+[node name="FileManager" type="Sprite2D" parent="."]
+position = Vector2(376, 1032)
+scale = Vector2(2.92561, 2.92561)
+texture = ExtResource("8_gb736")
+
+[node name="WindowsExplorer" type="Sprite2D" parent="."]
+position = Vector2(504, 1032)
+scale = Vector2(2.35493, 2.35493)
+texture = ExtResource("9_qshv8")
+
+[node name="InternetExplore" type="Sprite2D" parent="."]
+position = Vector2(600, 1032)
+scale = Vector2(1.03546, 1.03546)
+texture = ExtResource("10_sdk0y")
 
 [connection signal="pressed" from="Downloads" to="." method="_on_downloads_pressed"]
+[connection signal="pressed" from="FileManagerLandscape/Button" to="FileManagerLandscape" method="_on_button_pressed"]

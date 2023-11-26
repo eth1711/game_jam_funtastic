@@ -1,12 +1,9 @@
 extends Node2D
 
-var tree
-
-func _on_ready():
-	var tree = self.get_tree()
-
+func _process(delta):
+	if Input.is_key_pressed(KEY_ESCAPE):
+		get_tree().quit()
 func _on_downloads_pressed():
-	for node in tree:
-		if node.name == "File_manager":
-			node.show()
-			node.add_child("res://Scenes/Folders/downloads.tscn")
+	var file_man = $FileManagerLandscape
+	file_man.add_child(load("res://Scenes/Folders/downloads.tscn").instantiate())
+	file_man.show()

@@ -1,9 +1,25 @@
 [gd_scene load_steps=2 format=3 uid="uid://b4hk62equhoxj"]
 
-[ext_resource type="PackedScene" uid="uid://b2xahkos6iuho" path="res://Scenes/file_window.tscn" id="1_mjhar"]
+[ext_resource type="Texture2D" uid="uid://che4ww80qq61j" path="res://Assets/Icons/bugs.png" id="2_w3lpf"]
 
 [node name="downloads" type="Node2D"]
 
-[node name="file_window" parent="." instance=ExtResource("1_mjhar")]
-position = Vector2(-2, 0)
-scale = Vector2(3.66312, 3.02413)
+[node name="TextureButton" type="TextureButton" parent="."]
+top_level = true
+offset_left = 312.0
+offset_top = 424.0
+offset_right = 336.0
+offset_bottom = 450.0
+scale = Vector2(3.17405, 3.17405)
+texture_normal = ExtResource("2_w3lpf")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+top_level = true
+offset_left = 528.0
+offset_top = 120.0
+offset_right = 1528.0
+offset_bottom = 160.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/normal_font_size = 26
+text = "Mypc:/User/Downloads"
