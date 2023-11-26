@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://ci5jwmqg7jpqy"
+=======
+uid="uid://by0y3mwfucxej"
+>>>>>>> 722fdd2873d3942271ad9d91594cd4bee322df10
 path="res://.godot/imported/windows desktop night.png-1c64fb3c8310b5b64a09a455ae954d0d.ctex"
 metadata={
 "vram_texture": false
