@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://beqoike441u1w"
-path="res://.godot/imported/file.png-9de97fd0d8aca43948c49655917ab0b4.ctex"
+uid="uid://c7e71ckvw3d31"
+path="res://.godot/imported/windows explorer.png-4619ca91b7a9691aed51e514e0feb6a1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Icons/file.png"
-dest_files=["res://.godot/imported/file.png-9de97fd0d8aca43948c49655917ab0b4.ctex"]
+source_file="res://Assets/Icons/windows explorer.png"
+dest_files=["res://.godot/imported/windows explorer.png-4619ca91b7a9691aed51e514e0feb6a1.ctex"]
 
 [params]
 
