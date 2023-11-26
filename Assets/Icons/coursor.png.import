@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2bbx2u5ia7on"
-path="res://.godot/imported/txt_with_maglass.png-be46f268524f756e238363ebdf576878.ctex"
+uid="uid://dyej6i5tctriq"
+path="res://.godot/imported/coursor.png-517db6ad05cbf5a733faaed8ee504e22.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/windows icon/txt_with_maglass.png"
-dest_files=["res://.godot/imported/txt_with_maglass.png-be46f268524f756e238363ebdf576878.ctex"]
+source_file="res://Assets/Icons/coursor.png"
+dest_files=["res://.godot/imported/coursor.png-517db6ad05cbf5a733faaed8ee504e22.ctex"]
 
 [params]
 

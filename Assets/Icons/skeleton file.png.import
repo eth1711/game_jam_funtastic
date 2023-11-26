@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b5shgj2fyk4p8"
-path="res://.godot/imported/internet explorer.png-f19e1d49f14d11dad0810ef01630d3ed.ctex"
+uid="uid://db5ggcknn2ers"
+path="res://.godot/imported/skeleton file.png-0208c17ea2a35a7893549c7af3364afb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/windows icon/internet explorer.png"
-dest_files=["res://.godot/imported/internet explorer.png-f19e1d49f14d11dad0810ef01630d3ed.ctex"]
+source_file="res://Assets/Icons/skeleton file.png"
+dest_files=["res://.godot/imported/skeleton file.png-0208c17ea2a35a7893549c7af3364afb.ctex"]
 
 [params]
 

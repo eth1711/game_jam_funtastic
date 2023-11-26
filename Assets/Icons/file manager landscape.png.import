@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mwx408htisem"
-path="res://.godot/imported/file.png-9424db95bb1bdb171689c779fc5eff9e.ctex"
+uid="uid://ri2vmmd88lnm"
+path="res://.godot/imported/file manager landscape.png-351fd4d99b9dce28baa898a0f5fd249e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/windows icon/file.png"
-dest_files=["res://.godot/imported/file.png-9424db95bb1bdb171689c779fc5eff9e.ctex"]
+source_file="res://Assets/Icons/file manager landscape.png"
+dest_files=["res://.godot/imported/file manager landscape.png-351fd4d99b9dce28baa898a0f5fd249e.ctex"]
 
 [params]
 

@@ -1,10 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://dm0fb0sy8g3u4"]
+[gd_scene load_steps=8 format=3 uid="uid://dm0fb0sy8g3u4"]
 
 [ext_resource type="Script" path="res://Scripts/Desktop.gd" id="1_0400b"]
-[ext_resource type="Texture2D" uid="uid://chc1fhqbc2dqt" path="res://Assets/Icons/windows desktop morning.png" id="2_qmuhb"]
+[ext_resource type="Texture2D" uid="uid://c8l0q08p7i8t6" path="res://Assets/Icons/windows desktop morning.png" id="2_qmuhb"]
 [ext_resource type="PackedScene" uid="uid://b2xahkos6iuho" path="res://Scenes/file_window.tscn" id="3_oa713"]
-[ext_resource type="Texture2D" uid="uid://cwthhahfjvxu2" path="res://Assets/Icons/close folder.png" id="4_r6ggi"]
-[ext_resource type="Texture2D" uid="uid://3q3o0uu6u7uv" path="res://Assets/Icons/bin with rubbish.png" id="5_kr5i7"]
+[ext_resource type="Texture2D" uid="uid://beqoike441u1w" path="res://Assets/Icons/file.png" id="4_egebd"]
+[ext_resource type="Texture2D" uid="uid://dn1cyovrv68c3" path="res://Assets/Icons/close folder.png" id="4_r6ggi"]
+[ext_resource type="Texture2D" uid="uid://ce3cyjm1kassp" path="res://Assets/Icons/bin with rubbish.png" id="5_kr5i7"]
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_32w10"]
 
 [node name="Desktop" type="Node2D"]
 script = ExtResource("1_0400b")
@@ -14,57 +17,101 @@ position = Vector2(987, 542)
 scale = Vector2(3.09015, 2.96923)
 texture = ExtResource("2_qmuhb")
 
-[node name="Node2D" parent="." instance=ExtResource("3_oa713")]
-position = Vector2(470, 83)
+[node name="Documents" type="TextureButton" parent="."]
+offset_left = 112.0
+offset_top = 328.0
+offset_right = 152.0
+offset_bottom = 368.0
+scale = Vector2(3.492, 3.492)
+texture_normal = ExtResource("4_r6ggi")
+texture_hover = ExtResource("4_egebd")
 
-[node name="TextureButton" type="TextureButton" parent="."]
-offset_left = 64.0
-offset_top = 184.0
-offset_right = 104.0
-offset_bottom = 224.0
-scale = Vector2(1.74593, 1.74593)
+[node name="RichTextLabel" type="RichTextLabel" parent="Documents"]
+offset_left = -22.9095
+offset_top = 34.3643
+offset_right = 68.0905
+offset_bottom = 55.3643
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = -115
+theme_override_constants/outline_size = 5
+bbcode_enabled = true
+text = "[center]Documents"
+scroll_active = false
+shortcut_keys_enabled = false
+custom_effects = [SubResource("RichTextEffect_32w10")]
+
+[node name="Images" type="TextureButton" parent="."]
+offset_left = 416.0
+offset_top = 328.0
+offset_right = 456.0
+offset_bottom = 368.0
+scale = Vector2(3.492, 3.492)
 texture_normal = ExtResource("4_r6ggi")
 
-[node name="Label" type="Label" parent="TextureButton"]
-layout_mode = 0
-offset_top = 32.77
-offset_right = 40.0
-offset_bottom = 58.77
-text = "Document"
-horizontal_alignment = 1
-autowrap_mode = 2
-
-[node name="TextureButton2" type="TextureButton" parent="."]
-offset_left = 256.0
-offset_top = 184.0
-offset_right = 296.0
-offset_bottom = 224.0
-scale = Vector2(1.74593, 1.74593)
-texture_normal = ExtResource("4_r6ggi")
-
-[node name="Label" type="Label" parent="TextureButton2"]
-layout_mode = 0
-offset_top = 32.77
-offset_right = 40.0
-offset_bottom = 58.77
-text = "Images
+[node name="RichTextLabel" type="RichTextLabel" parent="Images"]
+offset_left = -26.9187
+offset_top = 34.3643
+offset_right = 69.0813
+offset_bottom = 57.3643
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = -115
+theme_override_constants/outline_size = 5
+bbcode_enabled = true
+text = "[center]Images
 "
-horizontal_alignment = 1
-autowrap_mode = 2
+scroll_active = false
+shortcut_keys_enabled = false
+custom_effects = [SubResource("RichTextEffect_32w10")]
 
-[node name="TextureButton3" type="TextureButton" parent="."]
-offset_left = 64.0
-offset_top = 64.0
-offset_right = 104.0
-offset_bottom = 104.0
-scale = Vector2(1.74593, 1.74593)
+[node name="Downloads" type="TextureButton" parent="."]
+offset_left = 408.0
+offset_top = 80.0
+offset_right = 448.0
+offset_bottom = 120.0
+scale = Vector2(3.492, 3.492)
+texture_normal = ExtResource("4_r6ggi")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Downloads"]
+offset_left = -22.9095
+offset_top = 29.7824
+offset_right = 73.0905
+offset_bottom = 50.7824
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = -115
+theme_override_constants/outline_size = 5
+bbcode_enabled = true
+text = "[center]Downloads"
+scroll_active = false
+shortcut_keys_enabled = false
+custom_effects = [SubResource("RichTextEffect_32w10")]
+
+[node name="Bin" type="TextureButton" parent="."]
+offset_left = 88.0
+offset_top = 40.0
+offset_right = 138.0
+offset_bottom = 90.0
+scale = Vector2(3.492, 3.492)
 texture_normal = ExtResource("5_kr5i7")
 
-[node name="Label" type="Label" parent="TextureButton3"]
+[node name="RichTextLabel" type="RichTextLabel" parent="Bin"]
 layout_mode = 0
-offset_top = 32.77
-offset_right = 40.0
-offset_bottom = 58.77
-text = "Bin"
-horizontal_alignment = 1
-autowrap_mode = 2
+offset_left = 14.0
+offset_top = 41.0
+offset_right = 41.0
+offset_bottom = 62.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_outline_size = -115
+theme_override_constants/outline_size = 5
+bbcode_enabled = true
+text = "[center]Bin
+"
+scroll_active = false
+shortcut_keys_enabled = false
+custom_effects = [SubResource("RichTextEffect_32w10")]
+
+[node name="File_manager" parent="." instance=ExtResource("3_oa713")]
+visible = false
+position = Vector2(-16, 0)
+scale = Vector2(3.70281, 2.99224)
+
+[connection signal="pressed" from="Downloads" to="." method="_on_downloads_pressed"]

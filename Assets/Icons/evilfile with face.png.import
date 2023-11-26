@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bbx1ymq5qahse"
-path="res://.godot/imported/txt_with_pic.png-0a190d8a7df2b3226c53b178c5b44e50.ctex"
+uid="uid://caxe5cg7vbmoe"
+path="res://.godot/imported/evilfile with face.png-2f36c222b46611713136c600aebcc747.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/windows icon/txt_with_pic.png"
-dest_files=["res://.godot/imported/txt_with_pic.png-0a190d8a7df2b3226c53b178c5b44e50.ctex"]
+source_file="res://Assets/Icons/evilfile with face.png"
+dest_files=["res://.godot/imported/evilfile with face.png-2f36c222b46611713136c600aebcc747.ctex"]
 
 [params]
 

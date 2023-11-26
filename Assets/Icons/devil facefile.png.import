@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6c1fdpcnj7l6"
-path="res://.godot/imported/txt.png-e4db4c013ed6cfc9345ba592b7573929.ctex"
+uid="uid://cs1nceexvrmj8"
+path="res://.godot/imported/devil facefile.png-c2127552ffabd41ba7df3d480c694432.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/windows icon/txt.png"
-dest_files=["res://.godot/imported/txt.png-e4db4c013ed6cfc9345ba592b7573929.ctex"]
+source_file="res://Assets/Icons/devil facefile.png"
+dest_files=["res://.godot/imported/devil facefile.png-c2127552ffabd41ba7df3d480c694432.ctex"]
 
 [params]
 

@@ -1,11 +1,12 @@
 extends Node2D
 
+var tree
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+func _on_ready():
+	var tree = self.get_tree()
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+func _on_downloads_pressed():
+	for node in tree:
+		if node.name == "File_manager":
+			node.show()
+			node.add_child("res://Scenes/Folders/downloads.tscn")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb7kiluyu2fan"
-path="res://.godot/imported/windows explorer.png-7f837b4861fc36a896ad520b04e5a986.ctex"
+uid="uid://cgqnakbcqrh0n"
+path="res://.godot/imported/evil file.png-820bbf5e285e0fdea2198a83788c0c88.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiles/windows icon/windows explorer.png"
-dest_files=["res://.godot/imported/windows explorer.png-7f837b4861fc36a896ad520b04e5a986.ctex"]
+source_file="res://Assets/Icons/evil file.png"
+dest_files=["res://.godot/imported/evil file.png-820bbf5e285e0fdea2198a83788c0c88.ctex"]
 
 [params]
 

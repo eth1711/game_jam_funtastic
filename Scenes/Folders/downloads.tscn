@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4hk62equhoxj"]
+
+[ext_resource type="PackedScene" uid="uid://b2xahkos6iuho" path="res://Scenes/file_window.tscn" id="1_mjhar"]
+
+[node name="downloads" type="Node2D"]
+
+[node name="file_window" parent="." instance=ExtResource("1_mjhar")]
+position = Vector2(-2, 0)
+scale = Vector2(3.66312, 3.02413)
