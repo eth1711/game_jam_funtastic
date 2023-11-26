@@ -5,7 +5,9 @@ func _input(event):
 		get_tree().quit()
 
 var messages = [
-	"My First Message Second Message Herebn iefpnvpaonn piepo po po wepoh peb epob aepo"
+	"dfoefpbvpibevponepvepbeapib 
+	iefpnvpaonn piepo po po 
+	wepoh peb epob aepo"
 ]
 
 var typing_speed = .1
