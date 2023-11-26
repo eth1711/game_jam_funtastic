@@ -15,6 +15,11 @@ run/main_scene="res://Scenes/Desktop.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://Assets/icon.svg"
 
+[display]
+
+window/size/viewport_width=1980
+window/size/viewport_height=1080
+
 [input]
 
 player_up={
@@ -40,4 +45,5 @@ player_right={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
