@@ -1,0 +1,55 @@
+[gd_scene load_steps=4 format=3 uid="uid://dm0fb0sy8g3u4"]
+
+[ext_resource type="Script" path="res://Scripts/Desktop.gd" id="1_0400b"]
+[ext_resource type="Texture2D" uid="uid://cktquu1ap4eo7" path="res://Assets/Untitled.png" id="2_e4aj0"]
+[ext_resource type="PackedScene" uid="uid://b2xahkos6iuho" path="res://Scenes/file_window.tscn" id="3_oa713"]
+
+[node name="Desktop" type="Node2D"]
+script = ExtResource("1_0400b")
+
+[node name="Untitled" type="Sprite2D" parent="."]
+position = Vector2(582.66, 326.7)
+scale = Vector2(2.12766, 1.785)
+texture = ExtResource("2_e4aj0")
+
+[node name="trash" type="Button" parent="."]
+offset_left = 51.0
+offset_top = 38.0
+offset_right = 83.0
+offset_bottom = 69.0
+scale = Vector2(2.52159, 2.52159)
+text = "tra
+"
+
+[node name="img" type="Button" parent="."]
+offset_left = 188.0
+offset_top = 37.0
+offset_right = 220.0
+offset_bottom = 68.0
+scale = Vector2(2.52159, 2.52159)
+text = "img"
+
+[node name="docs" type="Button" parent="."]
+offset_left = 50.0
+offset_top = 165.0
+offset_right = 82.0
+offset_bottom = 196.0
+scale = Vector2(2.52159, 2.52159)
+text = "doc"
+
+[node name="homework" type="Button" parent="."]
+offset_left = 190.0
+offset_top = 167.0
+offset_right = 234.0
+offset_bottom = 198.0
+scale = Vector2(2.52159, 2.52159)
+text = "hom"
+
+[node name="Node2D" parent="." instance=ExtResource("3_oa713")]
+visible = false
+position = Vector2(98, -0.999996)
+
+[connection signal="pressed" from="trash" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="img" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="docs" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="homework" to="." method="_on_button_pressed"]

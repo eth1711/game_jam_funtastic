@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://12fk0w1flqov"]
+
+[ext_resource type="Script" path="res://Node2D.gd" id="1_wspf2"]
+
+[node name="image_folder" type="Node2D"]
+script = ExtResource("1_wspf2")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 18.8366
+offset_top = 58.1717
+offset_right = 50.8366
+offset_bottom = 89.1718
+scale = Vector2(1.06339, 1.06339)
+text = "file"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 69.8061
+offset_top = 58.7258
+offset_right = 101.806
+offset_bottom = 89.7258
+scale = Vector2(1.06339, 1.06339)
+text = "file"
+
+[node name="Button3" type="Button" parent="."]
+offset_left = 18.8366
+offset_top = 111.357
+offset_right = 50.8366
+offset_bottom = 142.357
+scale = Vector2(1.06339, 1.06339)
+text = "file"
+
+[node name="Button4" type="Button" parent="."]
+offset_left = 129.086
+offset_top = 58.1718
+offset_right = 161.086
+offset_bottom = 89.1718
+scale = Vector2(1.06339, 1.06339)
+text = "file"
