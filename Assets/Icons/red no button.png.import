@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxds5hcenvqup"
-path="res://.godot/imported/windows explorer.png-4619ca91b7a9691aed51e514e0feb6a1.ctex"
+uid="uid://d035b4b5vuj4c"
+path="res://.godot/imported/red no button.png-a2618f1c23a8a942e44adabbf83c1d9c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Icons/windows explorer.png"
-dest_files=["res://.godot/imported/windows explorer.png-4619ca91b7a9691aed51e514e0feb6a1.ctex"]
+source_file="res://Assets/Icons/red no button.png"
+dest_files=["res://.godot/imported/red no button.png-a2618f1c23a8a942e44adabbf83c1d9c.ctex"]
 
 [params]
 
